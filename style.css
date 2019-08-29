@@ -36,29 +36,62 @@ h1, p {
 article {
     color: #ebebeb;
     background: #777;
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px 20px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    height: 200px;
 }
 
 #article_p {
     color: #ebebeb;
-    background: #777; 
+    background: #777;
 }
 
 section {
     width: 495px;
     float: left;
+    height: 300px;
+    position: relative;
+    margin-right: 20px;
+}
+
+#sectionP {
+    padding-top: 15px;
+}
+
+aside {
+    height: 300px;
+    float: right;
+    width: 445px;
+}
+
+#asideP {
+    padding-top: 15px; 
 }
 
 footer {
     clear: both;
+    margin-top: 20px;
 }
 
 #headlineBox {
-    margin: 10px 20px;
+    margin: 20px 20px 10px;
+    height: 55px;
+    background: #ebebeb;
+    line-height: 280%;
 }
 
 #paragraphBox {
     margin: 10px 20px;
+    height: 55px;
+    background: #ebebeb;
+    line-height: 240%;
 }
+
+.pageCore {
+    width: 960px;
+    height: 300px;
+    background: #777;
+}
+
