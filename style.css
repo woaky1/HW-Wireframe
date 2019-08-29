@@ -21,10 +21,14 @@ header, nav, section, aside, footer {
 
 header {
     margin: 10px auto;
+    height: 100px;
+    line-height: 300%;
 }
 
 nav {
     margin-bottom: 20px;
+    height: 100px;
+    line-height: 300%;
 }
 
 h1, p {
@@ -73,6 +77,8 @@ aside {
 footer {
     clear: both;
     margin-top: 20px;
+    height: 100px;
+    line-height: 300%;
 }
 
 #headlineBox {
