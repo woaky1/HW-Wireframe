@@ -13,15 +13,18 @@ body {
     margin: 0 auto;
 }
 
-.header, .nav, .section, .aside, .footer {
+header, nav, section, aside, footer {
     background: #ebebeb;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.article {
-    color: #ebebeb;
-    background: #777;
+header {
+    margin: 10px auto;
+}
+
+nav {
+    margin-bottom: 20px;
 }
 
 h1, p {
@@ -30,6 +33,32 @@ h1, p {
     text-align: center;
 }
 
-.section {
+article {
+    color: #ebebeb;
+    background: #777;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#article_p {
+    color: #ebebeb;
+    background: #777; 
+}
+
+section {
     width: 495px;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+#headlineBox {
+    margin: 10px 20px;
+}
+
+#paragraphBox {
+    margin: 10px 20px;
 }
